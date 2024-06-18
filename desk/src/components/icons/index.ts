@@ -13,3 +13,4 @@ export { default as ReplyAllIcon } from "./ReplyAllIcon.vue";
 export { default as SuccessIcon } from "./SuccessIcon.vue";
 export { default as EditIcon } from "./EditIcon.vue";
 export { default as CameraIcon } from "./CameraIcon.vue";
+export { default as RefreshIcon } from "./RefreshIcon.vue";

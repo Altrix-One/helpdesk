@@ -1,5 +1,4 @@
 export { default as AttachmentItem } from "./AttachmentItem.vue";
-export { default as BreadCrumbs } from "./BreadCrumbs.vue";
 export { default as CommandPalette } from "./command-palette/CP.vue";
 export { default as HCard } from "./HCard.vue";
 export { default as ListView } from "./list-view/LV.vue";
@@ -10,7 +9,6 @@ export { default as SearchComplete } from "./SearchComplete.vue";
 export { default as SidebarLink } from "./SidebarLink.vue";
 export { default as StarRating } from "./StarRating.vue";
 export { default as TextEditor } from "./TextEditor.vue";
-export { default as TimelineItem } from "./TimelineItem.vue";
 export { default as UniInput } from "./UniInput.vue";
 export { default as UserAvatar } from "./UserAvatar.vue";
 export { default as ViewControls } from "./ViewControls.vue";
@@ -31,3 +29,4 @@ export { default as Autocomplete } from "./Autocomplete.vue";
 export { default as CannedResponseSelectorModal } from "./CannedResponseSelectorModal.vue";
 export { default as Fields } from "./Fields.vue";
 export { default as DropdownItem } from "./DropdownItem.vue";
+export { default as FadedScrollableDiv } from "./FadedScrollableDiv.vue";

@@ -5,7 +5,7 @@
         <div class="flex justify-between py-2">
           <div class="flex items-center gap-2">
             <RouterLink :to="{ name: CUSTOMER_PORTAL_LANDING }">
-              <img :src="Logo" class="h-5" />
+              <HDLogo class="h-6 w-6" />
             </RouterLink>
             <span class="text-gray-600">/</span>
             <span class="font-medium text-gray-900">Knowledge Base</span>
@@ -40,8 +40,8 @@ import { Button } from "frappe-ui";
 import { Icon } from "@iconify/vue";
 import { CUSTOMER_PORTAL_LANDING } from "@/router";
 import { useKeymapStore } from "@/stores/keymap";
-import Logo from "@/assets/logos/helpdesk.svg";
-import KnowledgeBasePublicSearch from "./KnowledgeBasePublicSearch.vue";
+import HDLogo from "@/assets/logos/HDLogo.vue";
+import KnowledgeBasePublicSearch from "./knowledge-base/KnowledgeBasePublicSearch.vue";
 
 const keymapStore = useKeymapStore();
 const showSearch = ref(false);
